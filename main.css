@@ -1,19 +1,7 @@
-/**{
+*{
     margin:0;
     padding:0;
-    overflow:hidden;
-    user-select:none;
 }
-
-
-
-body{
-    display:flex;
-    justify-content:center;
-    background: rgba(0,0,0,0.2511379551820728);
-    background: radial-gradient(circle, rgba(255,255,255,0) 0%, rgba(0,0,0,0.2511379551820728) 100%);
-    overflow:hidden;
-}*/
 
 
 
