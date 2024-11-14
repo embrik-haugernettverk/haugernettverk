@@ -1,48 +1,95 @@
 *{
     margin:0;
     padding:0;
+    overflow:hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media (prefers-color-scheme: light) {
+    h1, h2, p{color:black;}
+    a{color:#ca5747}
+    .container {background:rgba(255, 255, 255, 0.3);}
+    .container footer{background:rgba(255, 255, 255, 0.1);}
+}
+
+@media (prefers-color-scheme: dark) {
+    h1, h2, p{color:white;}
+    a{color:#639cd9}
+    .container {background:rgba(0, 0, 0, 0.300);}
+    .container footer{background:rgba(0, 0, 0, 0.100);}
+    header img{filter:invert();}
+
 }
 
 
 
-header{
+body{
+    background:#456672;
+    background-image:url(./Under\ Developement/photos/bakgrunn.png);
+    background-repeat:no-repeat;
+    background-position-y:top;
+    background-position-x:center;
+
     display:flex;
     justify-content:center;
     align-items:center;
+
+    height:100vh;
+    user-select:none;
+
 }
-
-header img{margin: 50px 20px 100px 20px; max-width:500px; min-width:250px;}
-
-
 
 
 .container{
-    display:flex;
-    justify-content:center;
-    margin:50px 0 0 0;
-}
+    height:70vh;
+    width:80vw;
+    max-width:400px;
+    min-height:500px;
 
 
-
-footer{
-    position:absolute;
-    bottom:0;
-    background:rgba(205, 228, 230);
-    width:100%;
-    height:15vh;
+    border-radius:60px;
 
     display:flex;
-    align-items:center;
-    flex-shrink:0;
     flex-direction:column;
-}
-
-footer h2{
-    color:rgba(202, 87, 71);
-    margin-top:20px;
     
 }
 
+.container *{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:100;
+}
 
-.footermail{margin:20px 0 0 0;}
-.footermail a{color:rgba(202, 87, 71); text-decoration:none;}
+
+
+.container header{
+    height:60%;
+    width:100%;
+
+}
+header img{
+    width:85%;
+    margin: 30px 0;
+}
+
+
+
+
+.container main{
+    height:100%;
+    width:100%;
+
+
+}
+
+
+.container footer{
+    height:50%;
+    width:100%;
+
+    flex-direction:column;
+    user-select:text;
+
+}
+footer .p2{margin-top:30px;}
