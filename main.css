@@ -4,24 +4,61 @@
 }
 
 body{
+    background:#fff0c1cf;
     display:flex;
     justify-content:center;
     align-items:center;
     flex-direction:column;
+    text-align:center;
+
     height:90vh;
+    gap:50px;
 }
 
+
+
 img{
-    min-width:300px;
-    width:40vw;
-    max-width:600px;
+    width:400px;
 }
 
 h1{
-    margin:50px 0 0 0;
     font-size:30px;
+    color:#003366
 }
 
 p{
-    margin: 80px 0 0 0;
+    font-size:20px;
+}
+p a{
+    color:#003366
+}
+
+
+@media only screen and (max-width: 700px) {
+
+
+    body{
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      flex-direction:column;
+
+      height:90vh;
+      gap:50px;
+    }
+
+    img{
+        width:300px;
+
+    }
+
+    h1{
+        font-size:25px;
+    }
+
+    a{
+        font-size:15px;
+    }
+
+
 }
