@@ -1,65 +1,167 @@
-*{
-    margin:0;
-    padding:0;
-    overflow-x:hidden;
-}
-
-
-/*@media (prefers-color-scheme: dark) {
-    body {
-        background-color:rgb(86, 117, 130);
-        color: white;
-    }
-}
-
-@media (prefers-color-scheme: light) {
-    body {
-        background-color:rgb(86, 117, 130);
-        color: white;
-    }
-}*/
-
-body .background{
-    position:absolute;
-    width:100vw;
-    
-}
-
-.main-container{
-    /*background:#e3b587;*/
-    height:100vh;
-    display:flex;
-    align-items:center;
-}
-
-
-
-.rightside{
-    z-index:1;
-    background:#456672;
-    position:absolute;
-    right:3vw;
-    width:45vw;
-    height:55vh;
-    border-radius:50px;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
-}
-
-.leftside{
-    z-index:0;
-    /*background:#314357;*/
-    position:absolute;
-    left:2vw;
-    right:2vw;
-    height:85vh;
-    border-radius:80px;
-}
-
-img{
-    height:fit-content;
-    width:90%;
-}
+.frame {
+    width: 1920px;
+    height: 1080px;
+    background-color: var(--design-5d5-bg-color-0);
+    overflow: hidden;
+  }
+  
+  .frame .overlap {
+    position: relative;
+    width: 3831px;
+    height: 3107px;
+    top: -1433px;
+    left: -1144px;
+  }
+  
+  .frame .bakgrunns-objekter {
+    position: absolute;
+    width: 3831px;
+    height: 3107px;
+    top: 0;
+    left: 0;
+  }
+  
+  .frame .overlap-group {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    top: 1433px;
+    left: 1144px;
+  }
+  
+  .frame .polygon {
+    position: absolute;
+    width: 814px;
+    height: 646px;
+    top: 434px;
+    left: 1106px;
+  }
+  
+  .frame .img {
+    position: absolute;
+    width: 1147px;
+    height: 639px;
+    top: 0;
+    left: 0;
+  }
+  
+  .frame .overskrift {
+    position: absolute;
+    width: 1231px;
+    height: 198px;
+    top: 1896px;
+    left: 1148px;
+  }
+  
+  .frame .arrow {
+    position: absolute;
+    width: 15px;
+    height: 27px;
+    top: 172px;
+    left: 607px;
+  }
+  
+  .frame .text-wrapper {
+    position: absolute;
+    width: 572px;
+    height: 36px;
+    top: 118px;
+    left: 328px;
+    background: linear-gradient(
+      180deg,
+      rgb(48.02, 152.99, 238.87) 0%,
+      rgb(41.27, 92.67, 126.93) 100%
+    );
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-family: "Inter-Light", Helvetica;
+    font-weight: 300;
+    color: transparent;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 2.40px;
+    line-height: normal;
+  }
+  
+  .frame .GJ-r {
+    position: absolute;
+    width: 1227px;
+    height: 118px;
+    top: 0;
+    left: 0;
+    background: linear-gradient(
+      180deg,
+      rgb(48.02, 152.99, 238.87) 0%,
+      rgb(41.27, 92.67, 126.93) 100%
+    );
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: transparent;
+    font-size: 115px;
+    text-align: center;
+    letter-spacing: 9.20px;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .frame .logo {
+    position: absolute;
+    width: 582px;
+    height: 100px;
+    top: 1491px;
+    left: 1200px;
+  }
+  
+  .frame .div {
+    position: absolute;
+    width: 246px;
+    height: 100px;
+    top: 0;
+    left: 332px;
+    font-family: "Martian Mono-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .computer-design {
+    position: absolute;
+    width: 101px;
+    height: 69px;
+    top: 15px;
+    left: 231px;
+    object-fit: cover;
+  }
+  
+  .frame .text-wrapper-2 {
+    position: absolute;
+    width: 231px;
+    height: 100px;
+    top: 0;
+    left: 0;
+    font-family: "Martian Mono-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 6.80px;
+    line-height: normal;
+  }
+  
+  .frame .rectangle {
+    position: absolute;
+    width: 846px;
+    height: 776px;
+    top: 1567px;
+    left: 2218px;
+    object-fit: cover;
+  }
